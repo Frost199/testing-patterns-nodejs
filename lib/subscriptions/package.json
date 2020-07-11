@@ -1,0 +1,14 @@
+{
+  "name": "subscriptions",
+  "version": "1.0.0",
+  "description": "The subscription module for testiing-patterns-nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Eleam Emmanuel",
+  "license": "ISC",
+  "dependencies": {
+    "underscore": "^1.10.2"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "testing-patterns-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.27.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1",
+    "sinon": "^9.0.2"
+  }
+}
