@@ -4,11 +4,15 @@
   "description": "The subscription module for testiing-patterns-nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "test-with-coverage": "nyc --check-coverage --lines 90 --per-file --reporter=html mocha"
   },
   "author": "Eleam Emmanuel",
   "license": "ISC",
   "dependencies": {
     "underscore": "^1.10.2"
+  },
+  "devDependencies": {
+    "nyc": "^15.1.0"
   }
 }
