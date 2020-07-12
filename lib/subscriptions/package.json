@@ -13,6 +13,7 @@
     "underscore": "^1.10.2"
   },
   "devDependencies": {
-    "nyc": "^15.1.0"
+    "nyc": "^15.1.0",
+    "sinon": "^9.0.2"
   }
 }
